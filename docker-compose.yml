@@ -1,0 +1,10 @@
+version: "2.1"
+services:
+  punygoddaily:
+    container_name: punygoddaily
+    hostname: punygod
+    build: .
+    environment:
+      USERNAME: "IG USERNAME HERE"
+      PASSWORD: "IG PASSWORD HERE"
+    restart: unless-stopped
